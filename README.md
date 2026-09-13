@@ -61,23 +61,8 @@ and 32.8 points at distance.
 
 ## Limitations
 
-The sample is 40 people, which leaves only 8 records in the test set — far
+The sample is 40 people, which leaves only 8 records in the test set, far
 too few for the AUC to be a reliable estimate of generalization. The model
 is a demonstration of the method, not a validated clinical tool. Duration
 of exposure and indoor vs. outdoor setting are both absent and would likely
 matter more than distance alone.
-
-## Repository contents
-
-- `essay.pdf` — full derivation, methodology, and results
-- `model.py` — model fitting and ROC evaluation *(see note below)*
-
-## Running it
-
-```bash
-pip install -r requirements.txt
-python model.py
-```
-
-Note: this code was written in 2024 and has not been re-run against current
-library versions.
