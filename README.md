@@ -19,7 +19,7 @@ Survey data from 40 individuals, collected by random sampling:
 
 | Feature | Encoding |
 |---|---|
-| Number of symptoms | 1–5 (dry cough, loss of taste, loss of smell, fatigue, fever — CDC list) |
+| Number of symptoms | 1-5 (dry cough, loss of taste, loss of smell, fatigue, fever — CDC list) |
 | Distance from positive case | 1, 2, 6, or 10 meters |
 | Face mask | 1 = wearing, 0 = not wearing |
 | Outcome | 1 = positive, 0 = negative |
